@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7429fe3e-815b-48e0-b6ef-b29bbdf97b72" name="trustlab">
+        <fileTransfer rootFolder="/home/mengyao" accessType="SFTP" host="trustlab" port="22" sshConfigId="7a751ebe-401f-4589-b3a1-b5782c2d5eba" sshConfig="mengyao@trustlab:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

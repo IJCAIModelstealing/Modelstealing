@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="OPEN_SSH" host="trustlab" id="7a751ebe-401f-4589-b3a1-b5782c2d5eba" port="22" nameFormat="DESCRIPTIVE" username="mengyao" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
