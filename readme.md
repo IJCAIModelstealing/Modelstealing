@@ -1,7 +1,7 @@
 # MoEx
 
 ## Code structure
-To run the experiments, please run __DCGAN_*mode*_*dataset*_.py__, replace *mode* with the attack mode to experiment with.
+To run the experiments, please run __DCGAN_mode_dataset.py__, replace *mode* with the attack mode to experiment with.
 Here, there are three key runable files in the repository, including
 * __DCGAN_acc_cifar.py__  # Accuracy extraction on CIFAR10
 * __DCGAN_acc_celeba.py__ # Accuracy extraction on Celeba
@@ -30,7 +30,7 @@ To execute the *Fidelity extraction* experiment on CIFAR10, please input the fol
 ```python DCGAN_fid_cifar.py```
 
 ### 3. Save the experiment results
-After the experiment is finished, the experiment results will be saved in the directory __*dataset*_*setting*_output_*lr*_*image_size*__ . The experiment results include the images generated from target GAN, the real sample use for training and the images generated from *MoEx*.
+After the experiment is finished, the experiment results will be saved in the directory, eg. __cifar10_greybox_output_lr0.0002_lamda0.5_image_szie64__. The experiment results include the images generated from target GAN, the real sample use for training and the images generated from *MoEx*.
 
 
 ## Requirements
